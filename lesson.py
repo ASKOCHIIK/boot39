@@ -25,3 +25,7 @@ b = InfoAge('Askan', 25)
 print(b.info())
 c = InfoExperience('Askan', 4)
 print(c.info())
+
+class Info(Mentor):
+    def info(self):
+        return f'{self.name}'
