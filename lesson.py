@@ -26,3 +26,9 @@ print(b.info())
 c = InfoExperience('Askan', 4)
 print(c.info())
 print(c.info)
+
+class A:
+    def __init__(self, name):
+        self.name = name
+    def info(self):
+        return 'hello', self.name
